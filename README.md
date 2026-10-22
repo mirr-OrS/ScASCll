@@ -1,5 +1,5 @@
 # ScASCll
-From italian, a play on words Scacchi (chess) and ASCll, a terminal implementation of chess in C
+From italian, a play on words Scacchi (chess) and ASCll, a terminal implementation of chess in C using ANSl escape codes for colors and graphics
 - by Void-byte-pixel and Niki
 
 ```
@@ -7,3 +7,13 @@ From italian, a play on words Scacchi (chess) and ASCll, a terminal implementati
 ( ^ w ^ ) <(I am a cat :3)
  +—————+
 ```
+
+TODO:
+[x] Render Board
+[x] Compute moves and attacks
+[x] Move
+[x] Capture
+[x] Take a turn
+[x] Check and checkmate
+[x] Promotions
+[x] Stalemate
