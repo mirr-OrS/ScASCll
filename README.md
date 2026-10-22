@@ -7,6 +7,7 @@ From italian, a play on words Scacchi (chess) and ASCll, a terminal implementati
 ( ^ w ^ ) <(I am a cat :3)
  +—————+
 ```
+TODO:
 - [ ] Render Board  
 - [ ] Compute moves and attacks  
 - [ ] Move  
