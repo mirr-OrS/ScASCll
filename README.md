@@ -4,7 +4,6 @@ From italian, a play on words Scacchi (chess) and ASCll, a terminal implementati
 
 ```
  /\_ _/\
-( O w O )
+( ^ w ^ ) <(I am a cat :3)
  +—————+
-
 ```
