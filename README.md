@@ -1,6 +1,7 @@
 # ScASCll
-From italian, a play on words Scacchi (chess) and ASCll, a terminal implementation of chess in C using ANSl escape codes for colors and graphics  
-\- by Void-byte-pixel and Niki
+From italian, a play on words Scacchi (chess) and ASCll, a terminal implementation of chess in C using ANSl escape codes for colors and graphics
+
+> \- by Void-byte-pixel and Niki
 
 ```
  /\_ _/\
