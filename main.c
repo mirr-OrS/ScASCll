@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void renderBoard(piecePOS ***pieceLayer);
-void calcAttacks(piecePOS ***pieceLayer, boardState ***board);
+void renderBoard(piecePOS (*pieceLayer)[8]);
+void calcAttacks(piecePOS (*pieceLayer)[8], boardState (*board)[8]);
 
 typedef enum{
   EMPTY_SQ = 0,
@@ -36,7 +36,7 @@ int main(){
 }
 
 // table colors are: \033[48;5;70m (black) and \033[48;5;15m (white)
-void renderBoard(piecePOS ***pieceLayer){}
+void renderBoard(piecePOS (*pieceLayer)[8]){}
 /*
 color = ["\033[48;5;15m", "\033[48;5;70m"]
 oscilator = 0
