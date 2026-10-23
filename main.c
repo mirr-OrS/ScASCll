@@ -24,10 +24,10 @@ int main(){
   piecePOS pieceLayer[8][8] = 
   {{ROOK_B,   KNIGHT_B,   BISHOP_B,   QUEEN_B,   KING_B,   BISHOP_B,   KNIGHT_B,   ROOK_B},
    {PAWN_B,    PAWN_B,     PAWN_B,    PAWN_B,    PAWN_B,    PAWN_B,     PAWN_B,    PAWN_B},
-   {EMPTY,     EMPTY,      EMPTY,     EMPTY,     EMPTY,     EMPTY,      EMPTY,     EMPTY},
-   {EMPTY,     EMPTY,      EMPTY,     EMPTY,     EMPTY,     EMPTY,      EMPTY,     EMPTY},
-   {EMPTY,     EMPTY,      EMPTY,     EMPTY,     EMPTY,     EMPTY,      EMPTY,     EMPTY},
-   {EMPTY,     EMPTY,      EMPTY,     EMPTY,     EMPTY,     EMPTY,      EMPTY,     EMPTY},
+  {EMPTY_SQ,  EMPTY_SQ,   EMPTY_SQ,  EMPTY_SQ,  EMPTY_SQ,  EMPTY_SQ,   EMPTY_SQ,  EMPTY_SQ},
+  {EMPTY_SQ,  EMPTY_SQ,   EMPTY_SQ,  EMPTY_SQ,  EMPTY_SQ,  EMPTY_SQ,   EMPTY_SQ,  EMPTY_SQ},
+  {EMPTY_SQ,  EMPTY_SQ,   EMPTY_SQ,  EMPTY_SQ,  EMPTY_SQ,  EMPTY_SQ,   EMPTY_SQ,  EMPTY_SQ},
+  {EMPTY_SQ,  EMPTY_SQ,   EMPTY_SQ,  EMPTY_SQ,  EMPTY_SQ,  EMPTY_SQ,   EMPTY_SQ,  EMPTY_SQ},
    {PAWN_W,    PAWN_W,     PAWN_W,    PAWN_W,    PAWN_W,    PAWN_W,     PAWN_W,    PAWN_W},
    {ROOK_W,   KNIGHT_W,   BISHOP_W,   QUEEN_W,   KING_W,   BISHOP_W,   KNIGHT_W,   ROOK_W}};
   boardState AttacksAndMoves[8][8] = {0};
