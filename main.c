@@ -27,6 +27,7 @@ int main(){
    {EMPTY,     EMPTY,      EMPTY,     EMPTY,     EMPTY,     EMPTY,      EMPTY,     EMPTY},
    {EMPTY,     EMPTY,      EMPTY,     EMPTY,     EMPTY,     EMPTY,      EMPTY,     EMPTY},
    {EMPTY,     EMPTY,      EMPTY,     EMPTY,     EMPTY,     EMPTY,      EMPTY,     EMPTY},
+   {EMPTY,     EMPTY,      EMPTY,     EMPTY,     EMPTY,     EMPTY,      EMPTY,     EMPTY},
    {PAWN_W,    PAWN_W,     PAWN_W,    PAWN_W,    PAWN_W,    PAWN_W,     PAWN_W,    PAWN_W},
    {ROOK_W,   KNIGHT_W,   BISHOP_W,   QUEEN_W,   KING_W,   BISHOP_W,   KNIGHT_W,   ROOK_W}};
   boardState AttacksAndMoves[8][8] = {0};
