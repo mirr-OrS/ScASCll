@@ -4,13 +4,13 @@ void renderBoard(piecePOS ***pieceLayer);
 void calcAttacks(piecePOS ***pieceLayer, boardState ***board);
 
 typedef enum{
-  EMPTY = 0,
+  EMPTY_SQ = 0,
   PAWN_W, ROOK_W, KNIGHT_W, BISHOP_W, QUEEN_W, KING_W,
   PAWN_B, ROOK_B, KNIGHT_B, BISHOP_B, QUEEN_B, KING_B
 }piecePOS;
 
 typedef enum{
-  EMPTY = 0,
+  FREE_SQ = 0,
   ATTACK_W = 1, ATTACK_B = 2,
   OCCUPIED_W = 4, OCCUPIED_B = 8,
   KING_W = 16, KING_B = 32
