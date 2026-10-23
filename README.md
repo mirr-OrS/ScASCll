@@ -17,5 +17,3 @@ TODO:
 - [ ] Check and checkmate  
 - [ ] Promotions  
 - [ ] Stalemate
-
-ciao
