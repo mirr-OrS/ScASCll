@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void renderBoard(piecePOS ***pieceLayer);
-void renderAttacks(piecePOS ***pieceLayer, boardState ***board);
+void calcAttacks(piecePOS ***pieceLayer, boardState ***board);
 
 typedef enum{
   EMPTY = 0,
@@ -33,3 +33,23 @@ int main(){
 
   return 0;
 }
+
+// table colors are: \033[48;5;70m (black) and \033[48;5;15m (white)
+void renderBoard(piecePOS ***pieceLayer){}
+/*
+color = ["\033[48;5;15m", "\033[48;5;70m"]
+oscilator = 0
+scale = 2
+
+for i in range(8*scale):
+    for j in range(16*scale, 0, -1):
+        if j == 16*scale and i%scale == 0:
+            oscilator = (oscilator + 1)%2
+        if j%(2*scale) == 0:
+            oscilator = (oscilator + 1)%2
+
+        print(f"{color[oscilator]} ", end="\033[0m")
+    print()
+
+code in python for making the board to scale with perfect squares (aspect ratio 2:1)
+*/
